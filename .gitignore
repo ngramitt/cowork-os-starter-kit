@@ -1,3 +1,42 @@
+# Keeps machine clutter out of the kit. Nothing in "Cowork OS/" should match these.
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# Cloud-sync staging and conflict files
+.tmp.drive*
+*.icloud
+.~lock.*
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (the kit's scripts run with python3 -B, but just in case)
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Secrets: never commit these
+.env
+.env.*
+*.pem
+*.key
+
+# Local AI-tool settings
+.claude/settings.local.json

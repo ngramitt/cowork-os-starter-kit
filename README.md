@@ -27,4 +27,22 @@ Setup starts by itself: three quick rounds of questions about you, how you like 
 
 - **Your files stay on your computer.** Your AI tool reads only what it needs. Don't store passwords or full account numbers in the folder.
 - **Python 3 is optional.** It powers the automatic checks. Claude's desktop app has it built in; everything works without it.
-- **Use Download ZIP rather than copying files one by one,** so the folder arrives complete.
+- **Use Download ZIP rather than copying files one by one,** so the folder arrives complete. (Cloning with git works too, but Download ZIP keeps the first health check cleanest.)
+- **Already set up?** Keep using your own folder. Don't download over it: your workspace has your answers, areas and memory in it, and a fresh copy would start setup again.
+
+## What's in this repo
+
+| Path | What it is |
+|---|---|
+| `Cowork OS/` | The kit itself: the folder you move and open in your AI tool |
+| `Cowork OS/START-HERE.md` | Setup in three steps |
+| `Cowork OS/00_System/GUIDE.md` | The plain-English guide and FAQ |
+| `LICENSE` | MIT: use it, change it and share it freely; keep the copyright notice |
+
+## Questions or feedback
+
+Tell the person who sent you this link. Notes on what confused you during setup are especially helpful, since they shape the next version. If you're comfortable with GitHub, you can also open an issue.
+
+## License
+
+MIT. See [`LICENSE`](LICENSE).
