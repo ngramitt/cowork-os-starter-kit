@@ -1,0 +1,9 @@
+# Cowork OS workspace settings. First-run setup fills these in; edit by hand any time.
+# The maintenance scripts read "timezone" so that file dates match your calendar.
+# Use an IANA timezone name, e.g. America/New_York, America/Chicago, America/Los_Angeles, Europe/London.
+owner =
+timezone =
+tool =
+setup_date =
+python =
+kit_version = 1.1

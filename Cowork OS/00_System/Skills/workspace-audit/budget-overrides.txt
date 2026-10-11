@@ -1,0 +1,10 @@
+# Per-workstation size budgets for audit.py (and the dashboard's ⚠ flag).
+# One line per override:  <workstation folder path> | status_words or memory_words | <number>
+# The path is relative to the workspace root, e.g. "Job Search" or
+# "Creative Projects/Photography"; "root" means the root MEMORY.md.
+# Raise a budget here, for one workstation, when the default (80-word Current
+# Status, 1,200-word MEMORY.md) forces awkward cuts, instead of raising it for
+# everyone. Add a dated comment with the reason, and only on the owner's word.
+#
+# Example (not active):
+# Job Search | status_words | 120

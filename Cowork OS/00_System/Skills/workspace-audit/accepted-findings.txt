@@ -1,0 +1,4 @@
+# Accepted findings: owner-confirmed deliberate patterns.
+# Each non-comment line is a case-sensitive substring; any audit finding whose
+# "[area] message" line contains it is suppressed (reported only as a count).
+# Add a line ONLY after the owner confirms the pattern is deliberate; note the date.
