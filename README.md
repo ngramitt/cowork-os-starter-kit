@@ -4,13 +4,26 @@
 
 Instead of re-explaining yourself every conversation, you point your AI at this folder and it picks up where you left off. Setup takes about ten minutes and happens on its own the first time you open it.
 
+## Works with Claude and ChatGPT
+
+The kit keeps its rules in `AGENTS.md`, the shared instructions file that ChatGPT's Codex reads automatically, and a one-line `CLAUDE.md` points Claude at the same file. Same folder, same rules, whichever you use. You can even switch between them.
+
+| You use | Use it through | Notes |
+|---|---|---|
+| **ChatGPT** | The **ChatGPT desktop app in Codex mode** (or **Work** mode, on plans that have it), or the **Codex CLI** or IDE extension | Codex comes with every ChatGPT plan, including Free. Set the task to work **locally on your computer**, not in the cloud. The Codex desktop app needs a Mac with Apple Silicon (M1 or newer) or Windows; on an older Intel Mac, use the Codex CLI. |
+| **Claude** | The **Claude desktop app** (add the folder to a task) or **Claude Code** | Works on any plan with the desktop app. |
+
+**What won't work:** a regular ChatGPT or Claude chat window, on the website or in the app, where you just type messages. Those can't open a folder on your computer and keep it up to date. The kit needs a mode that works on local files: Codex or Work in ChatGPT, or a task with a folder in Claude.
+
+Other AI tools that read `AGENTS.md` and can edit local files will probably work too, but they haven't been tested.
+
 ## Get started
 
 1. **Download it.** Click the green **Code** button above, then **Download ZIP**.
 2. **Unzip it.** Inside is a folder called `Cowork OS`. Move it somewhere permanent, like your Documents folder, and keep the name.
 3. **Open it in your AI tool and say hi.**
    - **Claude desktop app:** start a new task and add the `Cowork OS` folder.
-   - **ChatGPT desktop app:** use **Codex** (or **Work**), open the folder, and set it to work **locally on your computer**.
+   - **ChatGPT desktop app:** switch to **Codex** (or **Work**), open the folder, and set it to work **locally on your computer**. If setup doesn't start on its own, say: "Read AGENTS.md and follow it."
    - **Claude Code or Codex CLI:** open a terminal in the folder and run `claude` or `codex`.
 
 Setup starts by itself: three quick rounds of questions about you, how you like to work, and two or three areas to start with. The full instructions are in [`Cowork OS/START-HERE.md`](Cowork%20OS/START-HERE.md).
